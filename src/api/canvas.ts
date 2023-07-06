@@ -28,13 +28,12 @@ export class Canvas {
         document.getElementById('game')!.appendChild(this.element);
         this.element.appendChild
         
+        this.completedLevels = 0
         this.load()
 
         this.scenes = {}
         this.activeScene = 'levels'
         this.globalObjects = []
-
-        this.completedLevels = 0
     }
 
     reset() {

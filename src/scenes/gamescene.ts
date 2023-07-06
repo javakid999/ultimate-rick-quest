@@ -264,7 +264,7 @@ export class GameScene extends Scene {
     update(deltaTime: number) {
         super.update(deltaTime)
 
-        if (this.level.coins.length == this.level.collectedCoins.length) {
+        if (this.level.coins.length == this.level.collectedCoins.length && this.level.coins.length != 0) {
             if (this.levelPlaying >= this.canvas.completedLevels) this.canvas.completedLevels++
             this.canvas.activeScene = 'levels'
             this.canvas.scenes['levels'].activate()
@@ -295,6 +295,13 @@ export class GameScene extends Scene {
             }
         }
         
+        if ((inputManager.leftClicked || inputManager.keys['w']) && this.level.player.control == false) {
+            this.canvas.activeScene = 'levels'
+            this.canvas.scenes['levels'].activate()
+            this.level.collectedCoins = []
+            this.canvas.save()
+        }
+
         if (inputManager.keys['r']) {
             this.level.player.respawn()
         }

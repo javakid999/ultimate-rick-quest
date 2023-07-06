@@ -37,7 +37,7 @@ export abstract class Entity {
         return false
     }
 
-    update(_deltaTime: number, _bounds: number[], _player: Player, _blocksTouching?: number[][], _entitiesTouching?: number[][], _hazardsTouching?: number[][]) { }
+    update(_deltaTime: number, _timeActive: number, _bounds: number[], _player: Player, _blocksTouching?: number[][], _entitiesTouching?: number[][], _hazardsTouching?: number[][]) { }
 }
 
 export class Crate extends Entity {
@@ -45,7 +45,7 @@ export class Crate extends Entity {
         super(position, asset, imageSize)
     }
 
-    update(deltaTime: number, bounds: number[], player: Player, blocksTouching: number[][],) {
+    update(deltaTime: number, _timeActive: number, bounds: number[], player: Player, blocksTouching: number[][],) {
         this.velocity[0] *= 0.8
         this.velocity[1] += 0.05
 

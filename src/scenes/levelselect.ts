@@ -97,6 +97,8 @@ export class LevelSelectScene extends Scene {
         button9.className = 'locked'
         button9.onclick = () => {this.loadLevel(8)}
         this.levelsElement.appendChild(button9)
+
+        this.activate()
     }
 
     activate() {

@@ -146,7 +146,7 @@ export class Level {
                         this.entities.push(new Blinker((entity as BlinkerObject).position, entity.sprite, this.assets[entity.sprite], entity.imageSize, (entity as BlinkerObject).onTime, (entity as BlinkerObject).numStates, (entity as BlinkerObject).state))
                         break;
                     case('love-interest'):
-                        this.entities.push(new LoveInterest((entity as LoveObject).position, entity.sprite, this.assets[entity.sprite], entity.imageSize))
+                        this.entities.push(new LoveInterest((entity as LoveObject).position, entity.sprite, this.assets, entity.imageSize))
                         break;
                 }
             })
@@ -250,7 +250,7 @@ export class Level {
                     }
                 }
             }
-            enemy.update(deltaTime, this.bounds, this.player, blocksTouching)
+            enemy.update(deltaTime, timeActive, this.bounds, this.player, blocksTouching)
         })
 
         const pos = [Math.floor((this.player.position[0]+this.player.velocity[0]*deltaTime)/60), Math.floor((this.player.position[1]+this.player.velocity[1]*deltaTime)/60)]

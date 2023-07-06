@@ -16,7 +16,7 @@ export class Enemy extends Entity {
         this.velocity = [...startVel]  
     }
 
-    update(deltaTime: number, bounds: number[], _player: Player, blocksTouching: number[][],) {
+    update(deltaTime: number, _timeActive: number, bounds: number[], _player: Player, blocksTouching: number[][],) {
 
         if (this.position[0] < bounds[0]) {
             this.position[0] = bounds[0]

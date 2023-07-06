@@ -30,7 +30,7 @@ export class Blinker extends Entity {
 
     }
 
-    update(deltaTime: number, _bounds: number[], player: Player, _blocksTouching: number[][],) {
+    update(deltaTime: number, _timeActive: number, _bounds: number[], player: Player, _blocksTouching: number[][],) {
         this.timer -= deltaTime
         if (this.timer < 0) {
             this.timer = this.onTime;

@@ -4,6 +4,7 @@
     {"name": "enemy", "link": "./src/assets/images/enemy.png"},
     {"name": "crate", "link": "./src/assets/images/crate.png"},
     {"name": "blinkers", "link": "./src/assets/images/blinkers.png"},
+    {"name": "heart", "link": "./src/assets/images/heart.png"},
 
     {"name": "day-tiles", "link": "./src/assets/images/day/tiles.png"},
     {"name": "evening-tiles", "link": "./src/assets/images/evening/tiles.png"},
