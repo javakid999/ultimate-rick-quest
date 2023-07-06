@@ -1,0 +1,47 @@
+[
+    {"name": "player", "link": "./src/assets/images/player.png"},
+    {"name": "love", "link": "./src/assets/images/love.png"},
+    {"name": "enemy", "link": "./src/assets/images/enemy.png"},
+    {"name": "crate", "link": "./src/assets/images/crate.png"},
+    {"name": "blinkers", "link": "./src/assets/images/blinkers.png"},
+
+    {"name": "day-tiles", "link": "./src/assets/images/day/tiles.png"},
+    {"name": "evening-tiles", "link": "./src/assets/images/evening/tiles.png"},
+    {"name": "night-tiles", "link": "./src/assets/images/night/tiles.png"},
+    {"name": "swamp_tiles", "link": "./src/assets/images/jungle/tiles.png"},
+    {"name": "ice_tiles", "link": "./src/assets/images/ice/tiles.png"},
+    {"name": "fire_tiles", "link": "./src/assets/images/hell/tiles.png"},
+    {"name": "castle_tiles", "link": "./src/assets/images/castle/tiles.png"},
+    {"name": "house_tiles", "link": "./src/assets/images/house/tiles.png"},
+
+    {"name": "decor-day", "link": "./src/assets/images/day/decor.png"},
+    {"name": "decor-night", "link": "./src/assets/images/night/decor.png"},
+    {"name": "decor-jungle", "link": "./src/assets/images/jungle/decor.png"},
+
+    {"name": "coins", "link": "./src/assets/images/money.png"},
+
+    {"name": "day-1", "link": "./src/assets/images/day/day-1.png"},
+    {"name": "day-2", "link": "./src/assets/images/day/day-2.png"},
+    {"name": "day-3", "link": "./src/assets/images/day/day-3.png"},
+
+    {"name": "evening-1", "link": "./src/assets/images/evening/1.png"},
+    {"name": "evening-2", "link": "./src/assets/images/evening/2.png"},
+    {"name": "evening-3", "link": "./src/assets/images/evening/3.png"},
+    {"name": "evening-4", "link": "./src/assets/images/evening/4.png"},
+    {"name": "evening-5", "link": "./src/assets/images/evening/5.png"},
+
+    {"name": "home-1", "link": "./src/assets/images/house/1.png"},
+    {"name": "home-2", "link": "./src/assets/images/house/2.png"},
+    {"name": "home-3", "link": "./src/assets/images/house/3.png"},
+    {"name": "home-4", "link": "./src/assets/images/house/4.png"},
+    {"name": "home-5", "link": "./src/assets/images/house/5.png"},
+
+    {"name": "night-1", "link": "./src/assets/images/night/0.png"},
+    {"name": "night-2", "link": "./src/assets/images/night/1.png"},
+    {"name": "night-3", "link": "./src/assets/images/night/2.png"},
+    {"name": "night-4", "link": "./src/assets/images/night/3.png"},
+
+    {"name": "jungle-1", "link": "./src/assets/images/jungle/1.png"},
+    {"name": "jungle-2", "link": "./src/assets/images/jungle/2.png"},
+    {"name": "jungle-3", "link": "./src/assets/images/jungle/3.png"}
+]

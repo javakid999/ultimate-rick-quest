@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#editor {
+  right: 0%;
+  font-family: 'Arial';
+  font-size: 20px;
+  border: solid 1px black;
+  user-select: none;
+}
+
+#editor img {
+  image-rendering: crisp-edges;
+}
+
+#selection {
+  object-fit: none;
+}
+
+#game {
+  position: relative;
+  border: solid 1px grey;
+}
+
+#levelSelect {
+  user-select: none;
+  position: absolute;
+  top: 5%;
+  font-family: 'Arial';
+  font-size: 40px;
+}
+
+#levelSelect h3 {
+  position: relative;
+  margin: auto;
+  left: 40%;
+}
+
+#levelSelect button {
+  position: relative;
+  left: 5%;
+  width: 300px;
+  border: none;
+  border-radius: 0;
+  height: 100px;
+}
+
+#levelSelect button.locked {
+  cursor: not-allowed;
+  background-color: #222222;
+}
